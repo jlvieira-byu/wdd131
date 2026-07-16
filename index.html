@@ -1,12 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 – Fundamentos da Web Dinâmica - João L. Vieira</title>
+    <meta name="description"
+        content="Página inicial do aluno João L. Vieira no aprendizado do curso WDD 131 – Fundamentos da Web Dinâmica, contendo informações básicas sobre o aluno e atendendo às especificações da atividade na tarefa S01">
+    <meta name="author" content="João L. Vieira">
+    <link rel="stylesheet" href="estilos/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/obterdatas.js" defer></script>
 </head>
+
 <body>
-    <h1>João Leonardo</h1>
-    <p>Software Developer</p>
+    <header>
+        <span>WDD 131 – Fundamentos da Web Dinâmica - João L. Vieira</span>
+        <nav>
+            <a href="https://www.linkedin.com">Linkedin</a>
+            <a href="https://byupw.instructure.com">Canvas</a>
+            <a
+                href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/12?lang=por&id=p9-p11#p9">Escritura</a>
+            <a href="#">Projeto Final</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>João L. Vieira</h1>
+        <p>Conteúdo do Main</p>
+
+        <section class="card sobre-mim">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Meu nome é João Leonardo e sou de Curitiba, Paraná, Brasil. Sou formado em Direito desde 2008 e atuo
+                como
+                advogado, mas tenho fascínio pela área de tecnologia e sempre tive o sonho de ser um programador. Eis-me
+                aqui! Neste
+                curso, estou aprendendo a estruturar páginas da web de forma organizada e semântica, compreendendo o
+                funcionamento
+                das principais tags utilizadas no desenvolvimento front-end. Durante as aulas, estudo conceitos como
+                títulos,
+                parágrafos, listas, links, imagens, tabelas e formulários, além da criação da estrutura básica de um
+                documento
+                HTML5. Também estou entendendo a importância da acessibilidade, da hierarquia de conteúdo e da correta
+                organização
+                dos elementos em uma página. Ao longo do curso, desenvolvo páginas estáticas funcionais, adquirindo uma
+                base sólida
+                para avançar posteriormente no aprendizado de CSS, JavaScript e outras tecnologias modernas utilizadas
+                no
+                desenvolvimento web profissional.</p>
+            <img src="imagens/foto-do-perfil.jpg" alt="Foto de João Leonardo Vieira" width="200">
+            <h3>Paraná, Brasil</h3>
+            <figure>
+                <img src="imagens/bandeira-do-brasil.png" alt="Bandeira do Brasil" width="200">
+                <figcaption>Bandeira Oficial do Brasil</figcaption>
+            </figure>
+            <p>Maior país da América do Sul, o Brasil reúne natureza exuberante, riqueza cultural, clima diversificado e
+                destinos
+                fascinantes, proporcionando experiências únicas para quem o conhece. É um dos países com a maior
+                diversidade de espécies
+                de plantas e animais do mundo, abrigando cerca de 20% da biodiversidade mundial.</p>
+        </section>
+
+        <section class="card recursos-web-dev">
+            <h2>Recursos Web Dev</h2>
+            <p>Lista de habilidades e competências.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <time id="ano-atual"></time> &#10070; João L. Vieira &#10070; Brasil</p>
+        <p>Última modificação: <time id="ultima-modificacao"></time></p>
+    </footer>
 </body>
+
 </html>
