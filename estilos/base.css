@@ -36,10 +36,10 @@ header nav a {
     color: #eeeeee;
 }
 
-body header nav a:hover {
+header nav a:hover {
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #eeeeeee5;
+    text-decoration-color: #f0efade5;
 }
 
 
@@ -69,11 +69,7 @@ main h1 {
 
 .sobre-mim {
     display: grid;
-    grid-template: repeat(3, auto) / repeat(4, auto);
-}
-
-.sobre-mim * {
-    padding: 10px;
+    grid-template-rows: repeat(4, auto);
 }
 
 .recursos-web-dev {
@@ -93,7 +89,7 @@ main h1 {
     background-color: #1d4d72;
     color: #eeeeee;
     font-size: 1.5rem;
-    grid-area: 1 / 1 / 2 / 4;
+    grid-area: 1 / 1 / 2 / 5;
     padding: 0;
 }
 
@@ -121,8 +117,10 @@ main h1 {
     grid-area: 3 / 1 / 4 / 3;
 }
 
-.sobre-mim figure * {
-    padding: 0;
+.sobre-mim p,
+.sobre-mim h3,
+.sobre-mim figcaption {
+    padding: 10px;
 }
 
 .sobre-mim figure {
@@ -147,11 +145,6 @@ main h1 {
     text-align: left;
     align-self: center;
     grid-area: 4 / 2 / 5 / 4;
-}
-
-
-main section p {
-    text-align: center;
 }
 
 
@@ -187,4 +180,7 @@ footer .ultima-modificacao {
         margin: 10px;
     }
 
+    .sobre-mim {
+        grid-template-columns: 1fr;
+    }
 }
