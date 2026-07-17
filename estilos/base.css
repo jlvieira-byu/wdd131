@@ -14,12 +14,12 @@ body {
 /* Header */
 header {
     background-color: #1d4d72;
+    color: #eeeeee;
 }
 
 header p {
     padding: 10px;
     text-align: center;
-    color: #eeeeee;
 }
 
 header nav {
@@ -28,6 +28,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     background-color: #333333;
+    color: #eeeeee;
 }
 
 header nav a {
