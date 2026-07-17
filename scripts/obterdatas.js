@@ -3,4 +3,4 @@
 
 document.getElementById('ano-atual').textContent = new Date().getFullYear();
 
-document.getElementById('ultima-modificacao').textContent = document.lastModified;
+document.getElementById('ultima-modificacao').textContent = 'Última modificação: ' + document.lastModified;
