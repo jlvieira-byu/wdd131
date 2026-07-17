@@ -21,7 +21,9 @@
 
 <body>
     <header>
-        <span>WDD 131 – Fundamentos da Web Dinâmica - João L. Vieira</span>
+        <span>
+            <p>WDD 131 – Fundamentos da Web Dinâmica - João L. Vieira</p>
+        </span>
         <nav>
             <a href="https://www.linkedin.com">Linkedin</a>
             <a href="https://byupw.instructure.com">Canvas</a>
@@ -33,49 +35,46 @@
 
     <main>
         <h1>João L. Vieira</h1>
-        <p>Conteúdo do Main</p>
 
-        <section class="card sobre-mim">
-            <h2>Sobre Mim</h2>
-            <p>Olá! Meu nome é João Leonardo e sou de Curitiba, Paraná, Brasil. Sou formado em Direito desde 2008 e atuo
-                como
-                advogado, mas tenho fascínio pela área de tecnologia e sempre tive o sonho de ser um programador. Eis-me
-                aqui! Neste
-                curso, estou aprendendo a estruturar páginas da web de forma organizada e semântica, compreendendo o
-                funcionamento
-                das principais tags utilizadas no desenvolvimento front-end. Durante as aulas, estudo conceitos como
-                títulos,
-                parágrafos, listas, links, imagens, tabelas e formulários, além da criação da estrutura básica de um
-                documento
-                HTML5. Também estou entendendo a importância da acessibilidade, da hierarquia de conteúdo e da correta
-                organização
-                dos elementos em uma página. Ao longo do curso, desenvolvo páginas estáticas funcionais, adquirindo uma
-                base sólida
-                para avançar posteriormente no aprendizado de CSS, JavaScript e outras tecnologias modernas utilizadas
-                no
-                desenvolvimento web profissional.</p>
-            <img src="imagens/foto-do-perfil.jpg" alt="Foto de João Leonardo Vieira" width="200">
-            <h3>Paraná, Brasil</h3>
-            <figure>
-                <img src="imagens/bandeira-do-brasil.png" alt="Bandeira do Brasil" width="200">
-                <figcaption>Bandeira Oficial do Brasil</figcaption>
-            </figure>
-            <p>Maior país da América do Sul, o Brasil reúne natureza exuberante, riqueza cultural, clima diversificado e
-                destinos
-                fascinantes, proporcionando experiências únicas para quem o conhece. É um dos países com a maior
-                diversidade de espécies
-                de plantas e animais do mundo, abrigando cerca de 20% da biodiversidade mundial.</p>
+        <section class="card sobre">
+            <div class="sobre-mim">
+                <h2>Sobre Mim</h2>
+                <p class="sobre-mim-p1">Meu nome é João Leonardo e sou de Curitiba, Paraná, Brasil. Tenho dois filhos e
+                    adoro assistir filmes com eles. Sou formado em
+                    Direito desde 2008 e atuo
+                    como
+                    advogado, mas tenho fascínio pela área de tecnologia e sempre tive o sonho de ser um programador.
+                    Agora, estou aprendendo a desenvolver páginas da Web dinâmicas, mesclando conhecimentos de
+                    JavaScript, HTML e CSS.</p>
+                <img src="imagens/foto-do-perfil.jpg" alt="Foto de João Leonardo Vieira" width="150">
+                <h3>Paraná, Brasil</h3>
+                <figure>
+                    <img src="imagens/bandeira-do-brasil.png" alt="Bandeira do Brasil" width="150">
+                    <figcaption>Bandeira oficial do Brasil</figcaption>
+                </figure>
+                <p class="sobre-mim-p2">Maior país da América do Sul, o Brasil reúne natureza exuberante, riqueza cultural, clima diversificado e destinos
+                fascinantes, proporcionando experiências únicas para quem o conhece. É um dos países com a maior diversidade de espécies
+                de plantas e animais do mundo, abrigando cerca de 20% da biodiversidade mundial, além de possuir a maior floresta
+                tropical do planeta, a Amazônia, e uma cultura marcada pela hospitalidade, música, gastronomia e tradições regionais.</p>
+            </div>
         </section>
 
         <section class="card recursos-web-dev">
             <h2>Recursos Web Dev</h2>
-            <p>Lista de habilidades e competências.</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">Comunidade Dev.to</a></li>
+                <li><a href="https://www.smashingmagazine.com/">Revista Smashing</a></li>
+                <li><a href="https://css-tricks.com/">CSS Tricks</a></li>
+                <li><a href="https://www.freecodecamp.org/">W3 Schools</a></li>
+                <li><a href="https://www.codecademy.com/">Udemy</a></li>
+                <li><a href="#">Imagem de Espaço Reservado Lorem Picsum</a></li>
+            </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; <time id="ano-atual"></time> &#10070; João L. Vieira &#10070; Brasil</p>
-        <p>Última modificação: <time id="ultima-modificacao"></time></p>
+        <p class="copyright">&copy; <time id="ano-atual"></time> &#10070; João L. Vieira &#10070; Brasil</p>
+        <p class="ultima-modificacao">Última modificação: <time id="ultima-modificacao"></time></p>
     </footer>
 </body>
 
