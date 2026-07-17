@@ -1,14 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid #000000; */
     box-sizing: border-box;
-    /* display: block; */
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     max-width: 1100px;
     margin: 0 auto;
     line-height: 1.6;
@@ -20,7 +17,6 @@ header {
 }
 
 header p {
-    /* display: block; */
     padding: 10px;
     text-align: center;
     color: #eeeeee;
@@ -32,7 +28,6 @@ header nav {
     justify-content: space-around;
     align-items: center;
     background-color: #333333;
-    color: #eeeeee;
 }
 
 header nav a {
@@ -43,7 +38,7 @@ header nav a {
 body header nav a:hover {
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #eeeeee;
+    text-decoration-color: #eeeeeee5;
 }
 
 
@@ -102,14 +97,12 @@ main h1 {
 }
 
 .sobre-mim-p1 {
-    /* text-align: center; */
     text-align: left;
     align-self: center;
     grid-area: 2 / 1 / 3 / 3;
 }
 
 .sobre-mim img {
-    /* display: inline; */
     min-width: 100px;
     max-width: 150px;
     height: auto;
@@ -117,8 +110,6 @@ main h1 {
     padding: 0;
     margin: 10px;
     grid-area: 2 / 3 / 3 / 4;
-    /* width: 100%; */
-    /* height: auto; */
 }
 
 .sobre-mim h3 {
@@ -134,7 +125,6 @@ main h1 {
 }
 
 .sobre-mim figure {
-    /* place-self: center; */
     text-align: center;
     align-self: center;
     grid-area: 4 / 1 / 5 / 2;
@@ -169,7 +159,6 @@ footer {
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 400;
-    /* display: block; */
     padding: 10px;
     margin-top: 20px;
     background-color: #1d4d72;
@@ -178,7 +167,6 @@ footer {
 
 footer .copyright {
     text-align: center;
-    /* color: #eeeeee; */
 }
 
 footer .ultima-modificacao {
@@ -188,9 +176,6 @@ footer .ultima-modificacao {
 
 /* Responsivo */
 @media (max-width: 640px) {
-    /* body {
-        background-color: red;
-    } */
 
     main {
         grid-template-columns: 100%;
@@ -202,45 +187,3 @@ footer .ultima-modificacao {
     }
 
 }
-
-/* Responsivo
-
-    .sobre-mim * {
-        grid-area: 1 / 1 / 2 / 2;
-    }
-
-    .sobre-mim-p1 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-
-    .sobre-mim img {
-        grid-area: 3 / 1 / 4 / 2;
-    }
-
-    .sobre-mim h3 {
-        grid-area: 4 / 1 / 5 / 2;
-    }
-
-    .sobre-mim figure {
-        grid-area: 5 / 1 / 6 / 2;
-    }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
-} */
-
-
-/* .card {
-    display: grid;
-} */
-
-/* 
-.sobre-mim h2 {
-    grid-area: 1 / 1 / 2 / 3;
-}
-
-.sobre-mim p {
-    grid-area: 2 / 1 / 3 / 3;
-} */
