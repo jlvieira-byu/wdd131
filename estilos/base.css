@@ -32,6 +32,7 @@ header nav {
     justify-content: space-around;
     align-items: center;
     background-color: #333333;
+    color: #eeeeee;
 }
 
 header nav a {
@@ -110,7 +111,11 @@ main h1 {
 .sobre-mim img {
     /* display: inline; */
     min-width: 100px;
+    max-width: 150px;
     height: auto;
+    border: 1px solid #000000;
+    padding: 0;
+    margin: 10px;
     grid-area: 2 / 3 / 3 / 4;
     /* width: 100%; */
     /* height: auto; */
@@ -135,13 +140,7 @@ main h1 {
     grid-area: 4 / 1 / 5 / 2;
 }
 
-.sobre-mim img {
-    max-width: 150px;
-    border: 1px solid #000000;
-    padding: 0;
-    margin: 10px;
-    height: auto;
-}
+
 
 .sobre-mim figure img {
     place-self: center;
@@ -174,11 +173,12 @@ footer {
     padding: 10px;
     margin-top: 20px;
     background-color: #1d4d72;
+    color: #eeeeee;
 }
 
 footer .copyright {
     text-align: center;
-    color: #eeeeee;
+    /* color: #eeeeee; */
 }
 
 footer .ultima-modificacao {
