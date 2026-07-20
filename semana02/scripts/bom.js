@@ -9,12 +9,9 @@ meu_button.addEventListener('click', function () {
 
         novo_li.textContent = meu_input.value;
         novo_botao_excluir.textContent = '❌';
-        
         novo_botao_excluir.setAttribute('aria-label', `Excluir item ${novo_li.textContent}`);
 
-        // adiciona botão dentro do novo li
         novo_li.append(novo_botao_excluir);
-
         meu_ul.append(novo_li);
 
         novo_botao_excluir.addEventListener('click', function () {
