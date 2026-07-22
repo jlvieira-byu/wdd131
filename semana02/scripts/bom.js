@@ -11,17 +11,16 @@ meu_button.addEventListener('click', function () {
         novo_botao_excluir.textContent = '❌';
         novo_botao_excluir.setAttribute('aria-label', `Excluir item ${novo_li.textContent}`);
 
-        novo_li.append(novo_botao_excluir);
-        meu_ul.append(novo_li);
-
         novo_botao_excluir.addEventListener('click', function () {
             meu_ul.removeChild(novo_li);
             meu_input.focus();
         });
 
+        novo_li.append(novo_botao_excluir);
+        meu_ul.append(novo_li);
+
         meu_input.value = '';
         meu_input.focus();
-
     } else {
         meu_input.focus();
     }
