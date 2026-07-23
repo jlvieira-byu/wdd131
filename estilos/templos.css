@@ -40,7 +40,7 @@ header {
     content: "✔ ";
 }
 
-.navegacao {
+nav {
     display: none;
     width: 100%;
     padding: 10px;
@@ -55,19 +55,19 @@ h2 {
     padding: 20px;
 }
 
-.navegacao.aberto {
+nav.aberto {
     display: flex;
     flex-direction: column;
 }
 
-.navegacao a {
+nav a {
     padding: 10px;
     text-align: center;
     text-decoration: none;
     color: #fff;
 }
 
-.navegacao a:hover {
+nav a:hover {
     background-color: #fff;
     color: #000;
     font-weight: 900;
