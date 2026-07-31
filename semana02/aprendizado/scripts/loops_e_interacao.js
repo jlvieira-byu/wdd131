@@ -39,7 +39,7 @@ do {
 
 console.log('Teste com forEach com arrow funtion:')
 
-relatorioEstudante.forEach((valor) => {
+relatorioEstudante.forEach(valor => {
     if (valor < LIMITE)
         console.log(`Menor que ${LIMITE}: ${valor}`);
 });
@@ -68,6 +68,11 @@ for (valor of relatorioEstudante) {
         console.log(`Menor que ${LIMITE}: ${valor}`);
 }
 
+
+let nome = "joão";
+let sobrenome = "leonardo";
+const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
+console.log(nomeCompleto(nome, sobrenome));
 
 //produzir dinamicamente os nomes dos dias (segunda-feira, terça-feira, quarta-feira etc.)
 // do próximo número de DIAS a partir da data de hoje
@@ -120,4 +125,3 @@ for (let i = 0; i < DIAS; i++) {
     console.log(diasparafrenteporextenso);
 }
 
-var jun = document.
