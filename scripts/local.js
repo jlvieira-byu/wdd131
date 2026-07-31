@@ -12,11 +12,9 @@ if (temperatura <= 10 && velocvento > 4.8) {
     sensacao = "N/A";
 }
 
-
-document.getElementById("temperatura").textContent = temperatura + " °C";
 document.getElementById("vento").textContent = velocvento + " km/h";
+document.getElementById("temperatura").textContent = temperatura + " °C";
 document.getElementById("sensacao").textContent = calcularSensacaoTermica(temperatura, velocvento).toFixed(1);
-
 
 document.getElementById('ano-atual').textContent = new Date().getFullYear();
 document.getElementById('ultima-modificacao').textContent = 'Última modificação: ' + document.lastModified;

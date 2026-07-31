@@ -15,7 +15,6 @@
 }
 
 body {
-    /* background-color: var(--cor-texto-inverso); */
     font-family: var(--fonte-body);
     color: var(--cor-texto);
 }
@@ -52,7 +51,6 @@ main img {
 #dados,
 #clima {
     padding: 10px;
-    /* border-bottom: 3px solid var(--cor-bordas-destaque); */
 }
 
 #dados {
@@ -83,14 +81,14 @@ footer {
     text-align: center;
     padding: 1rem;
     font-family: var(--fonte-extremos);
-    /* font-size: 5rem; */
 }
 
 footer p {
     padding: 3px;
 }
 
-/* ===== DESKTOP / TELA AMPLA ===== */
+
+
 @media (min-width: 650px) {
     main {
         position: relative;
@@ -104,11 +102,8 @@ footer p {
         position: absolute;
         top: 70px;
         left: 30px;
-        ;
         background-color: rgba(255, 255, 255, 0.9);
         width: 280px;
-        /* height: auto; */
-        /* border: 2px solid var(--cor-header); */
         border-bottom: none;
     }
 
@@ -118,22 +113,8 @@ footer p {
         right: 30px;
         background-color: rgba(255, 255, 255, 0.9);
         width: 280px;
-        /* border: 2px solid var(--cor-header); */
-        /* border: 3px solid var(--cor-bordas-destaque); */
         border: none;
     }
-
-    #clima h2::after {
-        content: "🌞";
-        margin-left: 0.5rem;
-        display: inline;
-    }
-
-    .icone-clima {
-        display: none;
-    }
-
-
 
     #dados h2,
     #clima h2 {
@@ -142,5 +123,14 @@ footer p {
         padding: 10px 0;
         text-align: center;
         background-color: var(--cor-header);
+    }
+    #clima h2::after {
+        content: "🌞";
+        margin-left: 0.5rem;
+        display: inline;
+    }
+
+    .icone-clima {
+        display: none;
     }
 }
