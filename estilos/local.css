@@ -5,8 +5,8 @@
 }
 
 :root {
-    --cor-header: #009f0e;
-    --cor-footer: #ff2525;
+    --cor-header: #026e0b;
+    --cor-footer: #a70505;
     --cor-bordas-destaque: #675fa1;
     --cor-texto-inverso: #FAFAFA;
     --cor-texto: #1A1A1A;
@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: var(--cor-texto-inverso);
+    /* background-color: var(--cor-texto-inverso); */
     font-family: var(--fonte-body);
     color: var(--cor-texto);
 }
